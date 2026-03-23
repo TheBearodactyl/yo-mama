@@ -58,5 +58,67 @@ pub fn register(joke: &YoMamaJoke) -> Vec<(Segment, Phase, EffectAction)> {
         Action.action == 0x273d49db452e7495_u64 => overlay(BLOWSNOSE_SPR);
         Action.action == 0x3aa2f394c5e7c472_u64 => overlay(DESPICABLEME3_SPR);
         Action.action == 0xd9381b779d0f8f94_u64 => overlay(SCOTTPILGRIM4_SPR);
+
+        Reaction.reaction == 0x7d0901701df48505_u64 => overlay(BLOODYMURDER_SPR);
+
+        Reaction.reaction == 0xeb5520c18bc5534b_u64 => overlay(BLUNT_SPR);
+
+        Reaction.reaction == 0x0d841944a5bd575a_u64 => overlay(BLUNTINCLUSIVE_SPR);
+
+        Reaction.reaction == 0xc961e027683d67c0_u64 => overlay(BRIDGETROLL_SPR);
+
+        Reaction.reaction == 0x47d196e888928f6c_u64 => overlay(FAINTED_SPR);
+
+        Reaction.reaction == 0xecde990e948436e0_u64 => overlay(GODSNUTS_SPR);
+
+        Reaction.reaction == 0x8e54cbc035681c29_u64 => overlay(MAFIABOSS_SPR);
+
+        Reaction.reaction == 0xe9520991637e16f4_u64 => overlay(OFFENDEDLADY_SPR);
+
+        Reaction.reaction == 0x57b12992cf39e8e7_u64 => overlay(SMOKINGCRACKREACTION_SPR);
+
+        Reaction.reaction == 0x81d077a5312fc798_u64 => overlay(VITAMINGUMMIESLADY_SPR);
+
+        Reaction.reaction == 0x52149ced73ac866c_u64 => overlay(ROCKTHROWING_SPR);
+
+        Reaction.reaction == 0x1c534ea0ea13deba_u64 => overlay(WORLDCONSUMPTION_SPR);
+
+        Action.action == 0x46903600f3e6fc91_u64 => overlay(POPCORN_SPR);
+
+        Action.action == 0xd3b79da93d77a7e4_u64 => overlay(GETTINGDRESSED_SPR);
+
+        Action.action == 0xb45194668c1bcca6_u64 => overlay(GROUNDINGYOU_SPR);
+
+        Action.action == 0xf23e64e05d59d0b9_u64 => overlay(JUMPS_SPR);
+
+        Action.action == 0xce0e29edfa9eb4ae_u64 => overlay(MEETSJUGGALO_SPR);
+
+        Action.action == 0x9c50268de0d2ef23_u64 => overlay(MOWINGLAWN_SPR);
+
+        Action.action == 0xc9ffa1b552387a66_u64 => overlay(PETSCAT_SPR);
+
+        Action.action == 0x09881a5900c34c9e_u64 => overlay(PETSDOG_SPR);
+
+        Action.action == 0xc4b3e04ceb2524b0_u64 => overlay(PLAYSBOARDGAMES_SPR);
+
+        Action.action == 0x434abb4c78232e58_u64 => overlay(PLAYSVIDEOGAMES_SPR);
+
+        Action.action == 0x23404bb8f7655009_u64 => overlay(ROCKYHORROR_SPR);
+
+        Action.action == 0xc489e19f10ff4a84_u64 => overlay(SEESCODE_SPR);
+
+        Action.action == 0xae9ea65271944f2c_u64 => overlay(SLEEPING_SPR);
+
+        Action.action == 0x2927ac578469c187_u64 => overlay(TAKINGOUTTRASH_SPR);
+
+        Action.action == 0x37f49c51b4af7cc7_u64 => overlay(TAKESPHOTO_SPR);
+
+        Action.action == 0x95c9e745af61f958_u64 => overlay(TALKING_SPR);
+
+        Action.action == 0xd7dd5e461f75e811_u64 => overlay(WALKING_SPR);
+
+        Action.action == 0x85c444c8d4581c9c_u64 => overlay(SMOKINGCRACKACTION_SPR);
+
+        Base.base == 0xa4e337abdb941a06_u64 => overlay(MOTHER2_SPR);
     })
 }
