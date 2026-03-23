@@ -1,0 +1,25 @@
+[package]
+name = "yo-mama"
+version = "0.1.0"
+edition = "2024"
+build = "build.rs"
+
+[dependencies]
+color-eyre = "0.6.5"
+cpal = "0.17.3"
+mp3lame-encoder = "0.2.2"
+polyprompt = "0.2.0"
+rand = "0.10.0"
+rodio = "0.22.2"
+thiserror = "2.0.18"
+windows = { version = "0.61.2", features = [
+    "Win32_Foundation",
+    "Win32_Graphics_Gdi",
+    "Win32_System_LibraryLoader",
+    "Win32_UI_WindowsAndMessaging",
+] }
+image = "0.25.10"
+
+[profile.dev]
+opt-level = 3
+strip = true
